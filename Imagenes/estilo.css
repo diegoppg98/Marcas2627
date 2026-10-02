@@ -1,0 +1,110 @@
+/* ===== ESTILO GENERAL ===== */
+
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background: linear-gradient(135deg, #fff8d6, #e8f8d8);
+    color: #3d4a2f;
+    text-align: center;
+}
+
+/* ===== TÍTULO ===== */
+
+h1 {
+    margin: 10px 0 15px;
+    color: #e85d04;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 0 #ffd166;
+}
+
+/* ===== DESCRIPCIÓN ===== */
+
+p {
+    max-width: 700px;
+    margin: 0 auto 35px;
+    padding: 18px 25px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-left: 6px solid #8ac926;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== IMÁGENES ===== */
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 12px;
+    border: 6px solid white;
+    border-radius: 25px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+    
+    /* Transición para el efecto hover */
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease,
+                border-radius 0.3s ease;
+}
+
+/* Efecto al pasar el ratón */
+
+img:hover {
+    transform: scale(1.07) rotate(1deg);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ===== COLORES ALTERNATIVOS PARA LAS IMÁGENES ===== */
+
+img:nth-of-type(1) {
+    border-color: #ff477e;
+}
+
+img:nth-of-type(2) {
+    border-color: #fcbf49;
+}
+
+img:nth-of-type(3) {
+    border-color: #70c1b3;
+}
+
+img:nth-of-type(4) {
+    border-color: #8ac926;
+}
+
+img:nth-of-type(5) {
+    border-color: #ffca3a;
+}
+
+img:nth-of-type(6) {
+    border-color: #6a994e;
+}
+
+/* ===== ADAPTACIÓN PARA MÓVILES ===== */
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 250px;
+        height: 250px;
+        margin: 8px;
+    }
+}
