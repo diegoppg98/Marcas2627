@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Cinendo</h1>
+
+    <form>
+        <label>Nombre: </label>
+        <input type="text" required name="Nombre">
+        <br>
+
+        <label>Email: </label>
+        <input type="email" placeholder="Escribe tu email">
+        <br>
+
+        <label>Contraseña: </label>
+        <input type="password">
+        <br>
+
+        <label>Color: </label>
+        <input type="color">
+        <br>
+
+        <label>Fecha: </label>
+        <input type="date">
+        <br>
+
+        <label>Numero de entradas</label>
+        <input type="number">
+        <br>
+
+        <label>Telefono: </label>
+        <input type="tel">
+        <br>
+
+
+        <label>Comida y bebida</label><br>
+        <input type="checkbox" name="Comida" value="palomitas">Palomitas<br>
+        <input type="checkbox" name="Comida" value="bebida">Bebida<br>
+        <input type="checkbox" name="Comida" value="nachos">Nachos<br>
+        <input type="checkbox" name="Comida" value="gominolas">Gominolas<br>
+        <input type="checkbox" name="Comida" value="pizza">Pizza<br>
+        <br>
+
+        <label>Idioma</label><br>
+        <input type="radio" name="Idioma" value="ingles">Ingles<br>
+        <input type="radio" name="Idioma" value="espanol">Español<br>
+        <input type="radio" name="Idioma" value="frances">Frances<br>
+        <input type="radio" name="Idioma" value="italiano">Italiano<br>
+        <br>
+
+        <select>
+            <option value="fight">Street Fighter</option>
+            <option value="perro">Perro con Brad Pitt</option>
+            <option value="coyote">Coyote vs Acme</option>
+            <option value="bola">La Bola negra</option>
+            <option value="digger">Digger</option>
+        </select>
+        <br><br>
+
+        <textarea rows="10" cols="30" placeholder="Escribe tu comentario"></textarea>
+        <br>
+
+        <input type="button" value="Boton Normal" onclick="alert('Esto es un boton')"><br>
+
+        <input type="submit" value="Enviar">
+
+
+    </form>
+    
+</body>
+</html>
