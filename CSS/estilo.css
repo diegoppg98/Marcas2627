@@ -1,0 +1,19 @@
+#encabezado{
+    color:blue
+}
+
+h1 {
+    color:blueviolet
+}
+
+/*Selector de id*/
+#parrafo1{
+    color:yellow
+}
+
+/*Selector de clase*/
+.parrafo2{
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
